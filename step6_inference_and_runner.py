@@ -44,8 +44,9 @@ logger = logging.getLogger(__name__)
 # ─────────────────────────────────────────────
 ASPECTS    = ["EFFICIENCY", "SYSTEM_AVAILABILITY", "FULFILLMENT", "PRIVACY"]
 SENTIMENTS = {0: "Positif", 1: "Netral", 2: "Negatif"}
-MODEL_PATH     = "models/best_model.pt"
-TOKENIZER_PATH = "models/tokenizer"
+MODEL_PATH     = "MODEL_PATH = "/kaggle/working/models/best_model.pt"
+"
+TOKENIZER_PATH = "/kaggle/working/models/tokenizer"
 
 
 # ─────────────────────────────────────────────
