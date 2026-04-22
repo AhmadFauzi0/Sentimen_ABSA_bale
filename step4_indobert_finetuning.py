@@ -68,7 +68,7 @@ logger = logging.getLogger(__name__)
 class TrainingConfig:
     # Model
     # model_name: str = "indolem/indobert-base-uncased"
-    model_name: "indolem/indobertweet-base-uncased"
+    model_name: str = "indolem/indobertweet-base-uncased"
     # Alternatif: "w11wo/sundanese-roberta-base-posp-tagger" untuk dialek
     # Alternatif: "cahya/bert-base-indonesian-1.5G"
 
