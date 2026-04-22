@@ -33,13 +33,13 @@ from dataclasses import dataclass, field
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
+from torch.optim import AdamW
 
 from transformers import (
     AutoTokenizer,
     AutoModel,
     AutoConfig,
     get_linear_schedule_with_warmup,
-    AdamW,
 )
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import (
